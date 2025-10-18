@@ -1,0 +1,16 @@
+gf180mcu
+runs
+*/final/def
+*/final/json_h
+*/final/klayout_gds
+*/final/mag
+*/final/mag_gds
+*/final/metrics.csv
+*/final/metrics.json
+*/final/nl
+*/final/odb
+*/final/pnl
+*/final/sdc
+*/final/sdf
+*/final/spice
+*/final/vh

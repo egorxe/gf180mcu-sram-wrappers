@@ -1,0 +1,2261 @@
+VERSION 5.7 ;
+   NAMESCASESENSITIVE ON ;
+   DIVIDERCHAR "/" ;
+   BUSBITCHARS "()" ;
+   DESIGN gf180mcu_fd_ip_sram__sram256x8m8wm1 ;
+   TECHNOLOGY gf180mcuD ;
+   UNITS DISTANCE MICRONS 1000 ;
+   DIEAREA ( 0 0 ) ( 431860 340880 ) ;
+
+VIAS 0 ;
+END VIAS
+
+COMPONENTS 0 ;
+END COMPONENTS
+
+PINS 412 ;
+   - A[7] + NET A[7]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 149085 2500 ) N ;
+   - A[6] + NET A[6]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 269420 2500 ) N ;
+   - A[5] + NET A[5]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 272645 2500 ) N ;
+   - A[4] + NET A[4]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 276380 2500 ) N ;
+   - A[3] + NET A[3]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 281885 2500 ) N ;
+   - A[2] + NET A[2]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 154855 2500 ) N ;
+   - A[1] + NET A[1]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 163320 2500 ) N ;
+   - A[0] + NET A[0]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 171775 2500 ) N ;
+   - CEN + NET CEN
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 252270 2500 ) N ;
+   - CLK + NET CLK
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 140240 2500 ) N ;
+   - D[7] + NET D[7]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 417420 2500 ) N ;
+   - D[6] + NET D[6]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 365710 2500 ) N ;
+   - D[5] + NET D[5]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 359470 2500 ) N ;
+   - D[4] + NET D[4]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 307795 2500 ) N ;
+   - D[3] + NET D[3]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 119535 2500 ) N ;
+   - D[2] + NET D[2]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 67830 2500 ) N ;
+   - D[1] + NET D[1]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 61590 2500 ) N ;
+   - D[0] + NET D[0]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 9880 2500 ) N ;
+   - GWEN + NET GWEN
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 203500 2500 ) N ;
+   - Q[7] + NET Q[7]
+     + DIRECTION OUTPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 409835 2500 ) N ;
+   - Q[6] + NET Q[6]
+     + DIRECTION OUTPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 369075 2500 ) N ;
+   - Q[5] + NET Q[5]
+     + DIRECTION OUTPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 356105 2500 ) N ;
+   - Q[4] + NET Q[4]
+     + DIRECTION OUTPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 315350 2500 ) N ;
+   - Q[3] + NET Q[3]
+     + DIRECTION OUTPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 111955 2500 ) N ;
+   - Q[2] + NET Q[2]
+     + DIRECTION OUTPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 71195 2500 ) N ;
+   - Q[1] + NET Q[1]
+     + DIRECTION OUTPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 58225 2500 ) N ;
+   - Q[0] + NET Q[0]
+     + DIRECTION OUTPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 17460 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 425830 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 414595 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 407590 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 395590 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 389590 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 383590 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 371590 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 362585 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 353590 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 341590 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 335590 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 329590 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 313975 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 307290 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 300790 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 294290 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 287790 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 281290 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 274790 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 251880 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 245330 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 238665 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 226665 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 214665 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 198640 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 182655 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 150550 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 144050 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 137550 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 131050 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 124550 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 118050 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 112050 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 97710 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 91710 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 85710 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 73710 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 64715 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 55710 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 43710 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 37710 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 31710 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 19710 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 12695 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 6030 2500 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -735 -580 ) ( 735 580 )        + PLACED ( 427595 5580 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 429360 8660 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -735 -580 ) ( 735 580 )        + PLACED ( 4265 5580 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 2500 8660 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -3922.5 ) ( 2500 3922.5 )        + PLACED ( 429360 24222.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -3922.5 ) ( 2500 3922.5 )        + PLACED ( 2500 24222.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -3407.5 ) ( 2500 3407.5 )        + PLACED ( 429360 44167.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -3407.5 ) ( 2500 3407.5 )        + PLACED ( 2500 44167.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -5355 ) ( 2500 5355 )        + PLACED ( 429360 65535 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -5355 ) ( 2500 5355 )        + PLACED ( 2500 65535 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -6807.5 ) ( 2500 6807.5 )        + PLACED ( 429360 96887.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -6807.5 ) ( 2500 6807.5 )        + PLACED ( 2500 96887.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 429360 117190 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 2500 117190 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -11737.5 ) ( 2500 11737.5 )        + PLACED ( 429360 158887.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -11737.5 ) ( 2500 11737.5 )        + PLACED ( 2500 158887.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 180630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 180630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 189630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 189630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 198630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 198630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 207630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 207630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 216630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 216630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 225630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 225630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 234630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 234630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 243630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 243630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 252630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 252630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 261630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 261630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 270630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 270630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 279630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 279630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 288630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 288630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 297630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 297630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 306630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 306630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 315630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 315630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 324630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -4265 -1750 ) ( 4265 1750 )        + PLACED ( 4265 324630 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 429360 333880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 2500 333880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -215930 -500 ) ( 215930 500 )        + PLACED ( 215930 336380 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 425830 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 417795 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 403645 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 388385 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 375065 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 361385 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 348065 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -480 ) ( 2500 480 )        + PLACED ( 334390 337360 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2502.5 -1520 ) ( 2502.5 1520 )        + PLACED ( 334387.5 339360 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 321065 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 307385 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 290235 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 273810 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 265345 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 247005 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 234065 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 227845 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 208650 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 195425 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 179575 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 156050 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 135360 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 119915 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 105765 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 90505 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 77185 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 63505 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 50185 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 36505 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 23185 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2500 -2000 ) ( 2500 2000 )        + PLACED ( 9505 338880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 425830 3205 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 6030 3205 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal2 ( -735 -163440 ) ( 735 163440 )        + PLACED ( 427595 168440 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal2 ( -1795 -2000 ) ( 1795 2000 )        + PLACED ( 428655 333880 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal2 ( -735 -165440 ) ( 735 165440 )        + PLACED ( 4265 170440 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal2 ( -213460 -500 ) ( 213460 500 )        + PLACED ( 216990 336380 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -66257.5 -3402.5 ) ( 66257.5 3402.5 )        + PLACED ( 77387.5 44172.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -12712.5 -2270 ) ( 12712.5 2270 )        + PLACED ( 160397.5 35990 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -232.5 -4527.5 ) ( 232.5 4527.5 )        + PLACED ( 10707.5 166102.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -78947.5 -1782.5 ) ( 78947.5 1782.5 )        + PLACED ( 212807.5 159212.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -78947.5 -6807.5 ) ( 78947.5 6807.5 )        + PLACED ( 212807.5 143717.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -26325 -4525 ) ( 26325 4525 )        + PLACED ( 335590 166100 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -78945 -2270 ) ( 78945 2270 )        + PLACED ( 212795 119120 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -65330 -4140 ) ( 65330 4140 )        + PLACED ( 212895 103985 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -55652.5 -6810 ) ( 55652.5 6810 )        + PLACED ( 363162.5 96885 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -27350 -2002.5 ) ( 27350 2002.5 )        + PLACED ( 146455 62232.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -20482.5 -4577.5 ) ( 20482.5 4577.5 )        + PLACED ( 271622.5 64752.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -500 -4955 ) ( 500 4955 )        + PLACED ( 299630 65130 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -26555 -1792.5 ) ( 26555 1792.5 )        + PLACED ( 335590 69097.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2630 -2030 ) ( 2630 2030 )        + PLACED ( 418475 62205 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -2630 -1795 ) ( 2630 1795 )        + PLACED ( 418475 69100 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -10922.5 -3405 ) ( 10922.5 3405 )        + PLACED ( 300467.5 44175 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -26580 -3407.5 ) ( 26580 3407.5 )        + PLACED ( 389590 44167.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -8817.5 -1137.5 ) ( 8817.5 1137.5 )        + PLACED ( 127252.5 27012.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -96300 -1132.5 ) ( 96300 1132.5 )        + PLACED ( 215845 21962.5 ) N ;
+   - VDD + NET VDD
+     + DIRECTION INOUT
+     + USE POWER
+     + PORT
+        + LAYER Metal3 ( -11300 -1137.5 ) ( 11300 1137.5 )        + PLACED ( 300845 27012.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 401590 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 377590 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 347590 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 323590 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 264890 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 258665 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 232665 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 220665 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 208665 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 192640 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 176655 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 167610 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 159120 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 103710 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 79710 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 49710 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2330 ) ( 2500 2330 )        + PLACED ( 25710 2330 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -3175 ) ( 2500 3175 )        + PLACED ( 429360 15685 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -3175 ) ( 2500 3175 )        + PLACED ( 2500 15685 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -4575 ) ( 2500 4575 )        + PLACED ( 429360 33405 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -4575 ) ( 2500 4575 )        + PLACED ( 2500 33405 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -3292.5 ) ( 2500 3292.5 )        + PLACED ( 429360 54172.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -3292.5 ) ( 2500 3292.5 )        + PLACED ( 2500 54172.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -8505 ) ( 2500 8505 )        + PLACED ( 429360 80145 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -8505 ) ( 2500 8505 )        + PLACED ( 2500 80145 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 429360 108910 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -2500 ) ( 2500 2500 )        + PLACED ( 2500 108910 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -4952.5 ) ( 2500 4952.5 )        + PLACED ( 429360 137127.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -4952.5 ) ( 2500 4952.5 )        + PLACED ( 2500 137127.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1975 ) ( 2500 1975 )        + PLACED ( 429360 174655 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1975 ) ( 2500 1975 )        + PLACED ( 2500 174655 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 185130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 185130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 194130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 194130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 203130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 203130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 212130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 212130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 221130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 221130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 230130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 230130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 239130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 239130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 248130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 248130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 257130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 257130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 266130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 266130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 275130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 275130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 284130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 284130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 293130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 293130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 302130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 302130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 311130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 311130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 320130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 320130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 429360 329130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1750 ) ( 2500 1750 )        + PLACED ( 2500 329130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 411670 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 394510 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 381190 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 367510 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 354190 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2502.5 -1520 ) ( 2502.5 1520 )        + PLACED ( 340512.5 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 327190 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 313510 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 296455 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 282450 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 254825 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 240190 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 221065 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 214650 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 201910 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 187240 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 172620 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 164405 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 148865 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 141885 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 128290 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 113790 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 96630 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 83310 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 69630 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 56310 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 42630 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 29310 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -2500 -1520 ) ( 2500 1520 )        + PLACED ( 15630 339360 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 401590 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 392160 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 387065 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 377590 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 347590 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 338165 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 333070 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 323590 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 302210 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 297125 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 264890 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 258665 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 232665 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 220665 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 208665 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 192640 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 176655 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 167610 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 159120 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 145590 2500 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 129925 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 124840 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 103710 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 94290 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 89195 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 79710 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 49710 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 40290 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -560 -1795 ) ( 560 1795 )        + PLACED ( 35195 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -2500 -1795 ) ( 2500 1795 )        + PLACED ( 25710 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -2980 ) ( 810 2980 )        + PLACED ( 429640 15615 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -2980 ) ( 810 2980 )        + PLACED ( 2220 15615 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -4530 ) ( 810 4530 )        + PLACED ( 429640 33385 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -4530 ) ( 810 4530 )        + PLACED ( 2220 33385 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -2980 ) ( 810 2980 )        + PLACED ( 429640 54115 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -2980 ) ( 810 2980 )        + PLACED ( 2220 54115 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -8250 ) ( 810 8250 )        + PLACED ( 429640 80240 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -8250 ) ( 810 8250 )        + PLACED ( 2220 80240 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -2360 ) ( 810 2360 )        + PLACED ( 429640 108915 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -2360 ) ( 810 2360 )        + PLACED ( 2220 108915 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -4530 ) ( 810 4530 )        + PLACED ( 429640 137220 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -4530 ) ( 810 4530 )        + PLACED ( 2220 137220 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 174630 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 174630 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 185130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 185130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 194130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 194130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 203130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 203130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 212130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 212130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 221130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 221130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 230130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 230130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 239130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 239130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 248130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 248130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 257130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 257130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 266130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 266130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 275130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 275130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 284130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 284130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 293130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 293130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 302130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 302130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 311130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 311130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 320130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 320130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 429640 329130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -810 -1740 ) ( 810 1740 )        + PLACED ( 2220 329130 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal2 ( -214520 -815 ) ( 214520 815 )        + PLACED ( 215930 338655 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal1 ( -214520 -1795 ) ( 214520 1795 )        + PLACED ( 215930 3205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal1 ( -1795 -165440 ) ( 1795 165440 )        + PLACED ( 428655 170440 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal1 ( -1795 -165440 ) ( 1795 165440 )        + PLACED ( 3205 170440 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal1 ( -214520 -1795 ) ( 214520 1795 )        + PLACED ( 215930 337675 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60290 -4997.5 ) ( 60290 4997.5 )        + PLACED ( 70060 137172.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -55002.5 -3292.5 ) ( 55002.5 3292.5 )        + PLACED ( 66247.5 54162.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -850 -1420 ) ( 850 1420 )        + PLACED ( 138060 173890 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60550 -505 ) ( 60550 505 )        + PLACED ( 212560 329135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 320135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 311135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 302135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 293135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 284135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 275135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 266135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 257135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 248135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 239135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 230135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 221135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 212135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 203135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 194135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60547.5 -505 ) ( 60547.5 505 )        + PLACED ( 212562.5 185135 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -220 -2127.5 ) ( 220 2127.5 )        + PLACED ( 303015 174807.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -64830 -4997.5 ) ( 64830 4997.5 )        + PLACED ( 358755 137172.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -9475 -1140 ) ( 9475 1140 )        + PLACED ( 129655 110270 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -3997.5 -3432.5 ) ( 3997.5 3432.5 )        + PLACED ( 284387.5 112562.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -9292.5 -5672.5 ) ( 9292.5 5672.5 )        + PLACED ( 129847.5 77317.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -41247.5 -4430 ) ( 41247.5 4430 )        + PLACED ( 188637.5 70645 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -66170 -6142.5 ) ( 66170 6142.5 )        + PLACED ( 352645 77777.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -38687.5 -1967.5 ) ( 38687.5 1967.5 )        + PLACED ( 249992.5 55667.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -59365 -3295 ) ( 59365 3295 )        + PLACED ( 363045 54160 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -55002.5 -1537.5 ) ( 55002.5 1537.5 )        + PLACED ( 66247.5 36437.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -44275 -55 ) ( 44275 55 )        + PLACED ( 162710 30940 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -29710 -1705 ) ( 29710 1705 )        + PLACED ( 177275 41205 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -51555 -2000 ) ( 51555 2000 )        + PLACED ( 225855 34960 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -23932.5 -3137.5 ) ( 23932.5 3137.5 )        + PLACED ( 233217.5 48962.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -28767.5 -1082.5 ) ( 28767.5 1082.5 )        + PLACED ( 283377.5 29912.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -60127.5 -1537.5 ) ( 60127.5 1537.5 )        + PLACED ( 363807.5 36437.5 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -850 -880 ) ( 850 880 )        + PLACED ( 138040 18500 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -325 -880 ) ( 325 880 )        + PLACED ( 144145 18500 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -325 -880 ) ( 325 880 )        + PLACED ( 209195 18500 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -325 -880 ) ( 325 880 )        + PLACED ( 211820 18500 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -325 -880 ) ( 325 880 )        + PLACED ( 234690 18500 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -325 -880 ) ( 325 880 )        + PLACED ( 236930 18500 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -325 -880 ) ( 325 880 )        + PLACED ( 239170 18500 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -325 -880 ) ( 325 880 )        + PLACED ( 241410 18500 ) N ;
+   - VSS + NET VSS
+     + DIRECTION INOUT
+     + USE GROUND
+     + PORT
+        + LAYER Metal3 ( -9675 -880 ) ( 9675 880 )        + PLACED ( 296400 18500 ) N ;
+   - WEN[7] + NET WEN[7]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 414035 2500 ) N ;
+   - WEN[6] + NET WEN[6]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 363710 2500 ) N ;
+   - WEN[5] + NET WEN[5]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 361460 2500 ) N ;
+   - WEN[4] + NET WEN[4]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 311135 2500 ) N ;
+   - WEN[3] + NET WEN[3]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 117580 2500 ) N ;
+   - WEN[2] + NET WEN[2]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 65830 2500 ) N ;
+   - WEN[1] + NET WEN[1]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 63580 2500 ) N ;
+   - WEN[0] + NET WEN[0]
+     + DIRECTION INPUT
+     + USE SIGNAL
+     + PORT
+        + LAYER Metal2 ( -560 -2500 ) ( 560 2500 )        + PLACED ( 13255 2500 ) N ;
+END PINS
+
+BLOCKAGES 3 ;
+   - LAYER Metal1
+      RECT ( 5000 5000 ) ( 426860 335880 ) ;
+   - LAYER Metal3
+      RECT ( 5000 5000 ) ( 426860 17620 )
+      RECT ( 306075 17620 ) ( 426860 19380 )
+      RECT ( 241735 17620 ) ( 286725 19380 )
+      RECT ( 239495 17620 ) ( 241085 19380 )
+      RECT ( 237255 17620 ) ( 238845 19380 )
+      RECT ( 235015 17620 ) ( 236605 19380 )
+      RECT ( 212145 17620 ) ( 234365 19380 )
+      RECT ( 209520 17620 ) ( 211495 19380 )
+      RECT ( 144470 17620 ) ( 208870 19380 )
+      RECT ( 138890 17620 ) ( 143820 19380 )
+      RECT ( 5000 17620 ) ( 137190 19380 )
+      RECT ( 5000 19380 ) ( 426860 20830 )
+      RECT ( 312145 20830 ) ( 426860 23095 )
+      RECT ( 5000 20830 ) ( 119545 23095 )
+      RECT ( 5000 23095 ) ( 426860 25875 )
+      RECT ( 312145 25875 ) ( 426860 28150 )
+      RECT ( 136070 25875 ) ( 289545 28150 )
+      RECT ( 5000 25875 ) ( 118435 28150 )
+      RECT ( 5000 28150 ) ( 426860 28830 )
+      RECT ( 312145 28830 ) ( 426860 30995 )
+      RECT ( 5000 28830 ) ( 254610 30885 )
+      RECT ( 206985 30885 ) ( 254610 30995 )
+      RECT ( 5000 30885 ) ( 118435 30995 )
+      RECT ( 5000 30995 ) ( 426860 32960 )
+      RECT ( 277410 32960 ) ( 426860 34900 )
+      RECT ( 423935 34900 ) ( 426860 37975 )
+      RECT ( 277410 34900 ) ( 303680 36960 )
+      RECT ( 5000 32960 ) ( 174300 33720 )
+      RECT ( 173110 33720 ) ( 174300 36960 )
+      RECT ( 173110 36960 ) ( 303680 37975 )
+      RECT ( 173110 37975 ) ( 426860 38260 )
+      RECT ( 5000 33720 ) ( 147685 34900 )
+      RECT ( 121250 34900 ) ( 147685 37975 )
+      RECT ( 5000 34900 ) ( 11245 37975 )
+      RECT ( 5000 37975 ) ( 147685 38260 )
+      RECT ( 5000 38260 ) ( 426860 39500 )
+      RECT ( 206985 39500 ) ( 426860 40760 )
+      RECT ( 416170 40760 ) ( 426860 47575 )
+      RECT ( 206985 40760 ) ( 363010 40770 )
+      RECT ( 311390 40770 ) ( 363010 47575 )
+      RECT ( 311390 47575 ) ( 426860 47580 )
+      RECT ( 206985 40770 ) ( 289545 42910 )
+      RECT ( 5000 39500 ) ( 147565 40770 )
+      RECT ( 143645 40770 ) ( 147565 42910 )
+      RECT ( 143645 42910 ) ( 289545 45825 )
+      RECT ( 257150 45825 ) ( 289545 47580 )
+      RECT ( 257150 47580 ) ( 426860 50865 )
+      RECT ( 422410 50865 ) ( 426860 57455 )
+      RECT ( 257150 50865 ) ( 303680 52100 )
+      RECT ( 143645 45825 ) ( 209285 47575 )
+      RECT ( 5000 40770 ) ( 11130 47575 )
+      RECT ( 5000 47575 ) ( 209285 50870 )
+      RECT ( 121250 50870 ) ( 209285 52100 )
+      RECT ( 121250 52100 ) ( 303680 53700 )
+      RECT ( 288680 53700 ) ( 303680 57455 )
+      RECT ( 288680 57455 ) ( 426860 57635 )
+      RECT ( 121250 53700 ) ( 211305 57455 )
+      RECT ( 5000 50870 ) ( 11245 57455 )
+      RECT ( 5000 57455 ) ( 211305 57635 )
+      RECT ( 5000 57635 ) ( 426860 60175 )
+      RECT ( 421105 60175 ) ( 426860 64235 )
+      RECT ( 300130 60175 ) ( 415845 64235 )
+      RECT ( 300130 64235 ) ( 426860 67305 )
+      RECT ( 421105 67305 ) ( 426860 70895 )
+      RECT ( 362145 67305 ) ( 415845 70890 )
+      RECT ( 300130 67305 ) ( 309035 70085 )
+      RECT ( 292105 60175 ) ( 299130 69330 )
+      RECT ( 5000 60175 ) ( 251140 60230 )
+      RECT ( 173805 60230 ) ( 251140 64235 )
+      RECT ( 5000 60230 ) ( 119105 64235 )
+      RECT ( 5000 64235 ) ( 251140 66215 )
+      RECT ( 229885 66215 ) ( 251140 69330 )
+      RECT ( 229885 69330 ) ( 299130 70085 )
+      RECT ( 229885 70085 ) ( 309035 70890 )
+      RECT ( 229885 70890 ) ( 415845 70895 )
+      RECT ( 229885 70895 ) ( 426860 71635 )
+      RECT ( 418815 71635 ) ( 426860 83920 )
+      RECT ( 229885 71635 ) ( 286475 75075 )
+      RECT ( 5000 66215 ) ( 147390 71645 )
+      RECT ( 139140 71645 ) ( 147390 75075 )
+      RECT ( 139140 75075 ) ( 286475 82990 )
+      RECT ( 5000 71645 ) ( 120555 82990 )
+      RECT ( 5000 82990 ) ( 286475 83920 )
+      RECT ( 5000 83920 ) ( 426860 90075 )
+      RECT ( 418815 90075 ) ( 426860 103695 )
+      RECT ( 5000 90075 ) ( 307510 99845 )
+      RECT ( 278225 99845 ) ( 307510 103695 )
+      RECT ( 278225 103695 ) ( 426860 108125 )
+      RECT ( 5000 99845 ) ( 147565 108125 )
+      RECT ( 5000 108125 ) ( 426860 109130 )
+      RECT ( 288385 109130 ) ( 426860 115995 )
+      RECT ( 139130 109130 ) ( 280390 111410 )
+      RECT ( 5000 109130 ) ( 120180 111410 )
+      RECT ( 5000 111410 ) ( 280390 115995 )
+      RECT ( 5000 115995 ) ( 426860 116850 )
+      RECT ( 291740 116850 ) ( 426860 121390 )
+      RECT ( 5000 116850 ) ( 133850 121390 )
+      RECT ( 5000 121390 ) ( 426860 132175 )
+      RECT ( 423585 132175 ) ( 426860 142170 )
+      RECT ( 130350 132175 ) ( 293925 136910 )
+      RECT ( 291755 136910 ) ( 293925 142170 )
+      RECT ( 291755 142170 ) ( 426860 150525 )
+      RECT ( 130350 136910 ) ( 133860 142170 )
+      RECT ( 5000 132175 ) ( 9770 142170 )
+      RECT ( 5000 142170 ) ( 133860 150525 )
+      RECT ( 5000 150525 ) ( 426860 157430 )
+      RECT ( 291755 157430 ) ( 426860 160995 )
+      RECT ( 5000 157430 ) ( 133860 160995 )
+      RECT ( 5000 160995 ) ( 426860 161575 )
+      RECT ( 361915 161575 ) ( 426860 170625 )
+      RECT ( 10940 161575 ) ( 309265 170625 )
+      RECT ( 10940 170625 ) ( 426860 170630 )
+      RECT ( 5000 161575 ) ( 10475 170630 )
+      RECT ( 5000 170630 ) ( 426860 172470 )
+      RECT ( 138910 172470 ) ( 426860 172680 )
+      RECT ( 303235 172680 ) ( 426860 176935 )
+      RECT ( 138910 172680 ) ( 302795 175310 )
+      RECT ( 5000 172470 ) ( 137210 175310 )
+      RECT ( 5000 175310 ) ( 302795 176935 )
+      RECT ( 5000 176935 ) ( 426860 184630 )
+      RECT ( 273110 184630 ) ( 426860 185640 )
+      RECT ( 5000 184630 ) ( 152015 185640 )
+      RECT ( 5000 185640 ) ( 426860 193630 )
+      RECT ( 273110 193630 ) ( 426860 194640 )
+      RECT ( 5000 193630 ) ( 152015 194640 )
+      RECT ( 5000 194640 ) ( 426860 202630 )
+      RECT ( 273110 202630 ) ( 426860 203640 )
+      RECT ( 5000 202630 ) ( 152015 203640 )
+      RECT ( 5000 203640 ) ( 426860 211630 )
+      RECT ( 273110 211630 ) ( 426860 212640 )
+      RECT ( 5000 211630 ) ( 152015 212640 )
+      RECT ( 5000 212640 ) ( 426860 220630 )
+      RECT ( 273110 220630 ) ( 426860 221640 )
+      RECT ( 5000 220630 ) ( 152015 221640 )
+      RECT ( 5000 221640 ) ( 426860 229630 )
+      RECT ( 273110 229630 ) ( 426860 230640 )
+      RECT ( 5000 229630 ) ( 152015 230640 )
+      RECT ( 5000 230640 ) ( 426860 238630 )
+      RECT ( 273110 238630 ) ( 426860 239640 )
+      RECT ( 5000 238630 ) ( 152015 239640 )
+      RECT ( 5000 239640 ) ( 426860 247630 )
+      RECT ( 273110 247630 ) ( 426860 248640 )
+      RECT ( 5000 247630 ) ( 152015 248640 )
+      RECT ( 5000 248640 ) ( 426860 256630 )
+      RECT ( 273110 256630 ) ( 426860 257640 )
+      RECT ( 5000 256630 ) ( 152015 257640 )
+      RECT ( 5000 257640 ) ( 426860 265630 )
+      RECT ( 273110 265630 ) ( 426860 266640 )
+      RECT ( 5000 265630 ) ( 152015 266640 )
+      RECT ( 5000 266640 ) ( 426860 274630 )
+      RECT ( 273110 274630 ) ( 426860 275640 )
+      RECT ( 5000 274630 ) ( 152015 275640 )
+      RECT ( 5000 275640 ) ( 426860 283630 )
+      RECT ( 273110 283630 ) ( 426860 284640 )
+      RECT ( 5000 283630 ) ( 152015 284640 )
+      RECT ( 5000 284640 ) ( 426860 292630 )
+      RECT ( 273110 292630 ) ( 426860 293640 )
+      RECT ( 5000 292630 ) ( 152015 293640 )
+      RECT ( 5000 293640 ) ( 426860 301630 )
+      RECT ( 273110 301630 ) ( 426860 302640 )
+      RECT ( 5000 301630 ) ( 152015 302640 )
+      RECT ( 5000 302640 ) ( 426860 310630 )
+      RECT ( 273110 310630 ) ( 426860 311640 )
+      RECT ( 5000 310630 ) ( 152015 311640 )
+      RECT ( 5000 311640 ) ( 426860 319630 )
+      RECT ( 273110 319630 ) ( 426860 320640 )
+      RECT ( 5000 319630 ) ( 152015 320640 )
+      RECT ( 5000 320640 ) ( 426860 322880 )
+      RECT ( 8530 322880 ) ( 426860 326380 )
+      RECT ( 5000 326380 ) ( 426860 328630 )
+      RECT ( 273110 328630 ) ( 426860 329640 )
+      RECT ( 5000 328630 ) ( 152010 329640 )
+      RECT ( 5000 329640 ) ( 426860 335880 ) ;
+   - LAYER Metal2
+      RECT ( 5000 5000 ) ( 426860 335880 ) ;
+END BLOCKAGES
+
+END DESIGN
+

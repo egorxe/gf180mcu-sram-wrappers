@@ -1,0 +1,83 @@
+############################## General #################################
+
+meta:
+  version: 2
+  flow: Classic
+  substituting_steps:
+    
+    # Not supported for gf180mcu
+    KLayout.DRC: null
+    Checker.KLayoutDRC: null
+    
+    # Not needed as there are no cells 
+    Verilator.Lint: null
+    OpenROAD.DetailedPlacement: null
+    OpenROAD.ResizerTimingPostCTS: null
+    OpenROAD.STAPostPNR: null
+    OpenROAD.IRDropReport: null
+    
+    # Fail on SRAM
+    Checker.IllegalOverlap: null 
+    Magic.DRC: null     
+
+DESIGN_NAME: gf180_ram_512x8_wrapper
+VERILOG_FILES:
+- dir::gf180_ram_512x8_wrapper.v
+
+MACROS:
+  gf180mcu_fd_ip_sram__sram512x8m8wm1:
+    gds:
+      - dir::../gf180mcu/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram512x8m8wm1.gds
+    lef:
+      - dir::../gf180mcu/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/lef/gf180mcu_fd_ip_sram__sram512x8m8wm1.lef
+    nl:
+      - dir::../gf180mcu/gf180mcuD/libs.ref/gf180mcu_fd_ip_sram/verilog/gf180mcu_fd_ip_sram__sram512x8m8wm1.v
+      
+    instances:  
+      RAM:
+        location: [0, 0]
+        orientation: N
+
+PRIMARY_GDSII_STREAMOUT_TOOL: klayout # Keeps all labels on power lines in GDS
+
+# SDC files (empty)
+PNR_SDC_FILE: dir::constraint.sdc
+SIGNOFF_SDC_FILE: dir::constraint.sdc
+FALLBACK_SDC: dir::constraint.sdc
+
+# Power / ground nets
+VDD_NETS:
+- VDD
+GND_NETS:
+- VSS
+
+############################# Flow config ############################## 
+
+RUN_POST_GPL_DESIGN_REPAIR: false
+RUN_ANTENNA_REPAIR: false
+RUN_DRT: false
+ERROR_ON_MAGIC_DRC: false
+RUN_FILL_INSERTION: false
+RUN_SPEF_EXTRACTION: false
+
+######################### Floorplanning & PDN ########################## 
+
+FP_SIZING: absolute
+DIE_AREA: [0, 0, 431.860, 484.880]
+CORE_AREA: [0, 0, 431.860, 484.880]
+
+FP_DEF_TEMPLATE: dir::template.def
+
+PDN_ENABLE_RAILS: false
+PDN_SKIPTRIM: true
+PDN_MULTILAYER: false
+PDN_VOFFSET: 1
+PDN_VWIDTH: 2
+PDN_VSPACING: 1
+PDN_VPITCH: 426.8
+
+PDN_CFG: dir::pdn_cfg.tcl
+
+############################## DRC/LVS ################################# 
+
+MAGIC_EXT_USE_GDS: true
