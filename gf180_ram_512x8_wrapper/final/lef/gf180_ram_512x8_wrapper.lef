@@ -264,11 +264,11 @@ MACRO gf180_ram_512x8_wrapper
     USE POWER ;
     PORT
       LAYER Metal4 ;
-        RECT 0.000 0.000 2.000 484.880 ;
+        RECT 0.000 0.000 2.000 482.160 ;
     END
     PORT
       LAYER Metal4 ;
-        RECT 426.800 0.000 428.800 484.880 ;
+        RECT 426.800 0.000 428.800 482.160 ;
     END
   END VDD
   PIN VSS
@@ -276,11 +276,11 @@ MACRO gf180_ram_512x8_wrapper
     USE GROUND ;
     PORT
       LAYER Metal4 ;
-        RECT 3.000 0.000 5.000 484.880 ;
+        RECT 3.000 0.000 5.000 482.160 ;
     END
     PORT
       LAYER Metal4 ;
-        RECT 429.800 0.000 431.800 484.880 ;
+        RECT 429.800 0.000 431.800 482.160 ;
     END
   END VSS
   PIN WEN[0]
